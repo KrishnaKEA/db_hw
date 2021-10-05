@@ -10,7 +10,7 @@ public class DbHwApplication {
    public static String pass;
 
     public static void main(String[] args) {
-
+// hello this is something
         ip = args[0];
         pass = args[1];
 
