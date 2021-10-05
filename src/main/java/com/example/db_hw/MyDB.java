@@ -10,9 +10,12 @@ public class MyDB {
 // change to use in aws
     String username = "b53b88e7c5d5d8";
     String password = "d9014f52";
-    //String url = "jdbc:mysql://"+DbHwApplication.ip+":3306/";
-    String url = "dbc:mysql://eu-cdbr-west-01.cleardb.com:3306";
-    String schemaName = "mydb2";
+   // String url = "jdbc:mysql://"+DbHwApplication.ip+":3306/";
+    String url = "jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/";
+
+    //String url = "eu-cdbr-west-01.cleardb.com";
+   // String schemaName = "mydb2";
+    String schemaName = "heroku_62d31ac1d93af30";
 
     String tableName = "persons";
     List<String > persons = new ArrayList();
@@ -57,7 +60,8 @@ public class MyDB {
         // 2. make sure there exists a table, named persons. If not, create one:
         //    Primary key: idpersons INT AUTO_INCREMENT
         //    Column: name VARCHAR(45)
-        sql = "CREATE TABLE IF NOT EXISTS `mydb2`.`persons` (\n" +
+        //sql = "CREATE TABLE IF NOT EXISTS `mydb2`.`persons` (\n" +
+                sql = "CREATE TABLE IF NOT EXISTS `heroku_62d31ac1d93af30`.`persons` (\n" +
                 "  `idpersons` INT NOT NULL AUTO_INCREMENT,\n" +
                 "  `name` VARCHAR(45) NULL,\n" +
                 "  PRIMARY KEY (`idpersons`));";
