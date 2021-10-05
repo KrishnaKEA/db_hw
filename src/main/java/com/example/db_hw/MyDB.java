@@ -5,11 +5,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyDB {
-    String username = "root";
-    String password = DbHwApplication.pass;
-    String url = "jdbc:mysql://"+DbHwApplication.ip+":3306/";
-    //String url = "jdbc:mysql://localhost:3306/";
+    //String username = "root";
+    //String password = DbHwApplication.pass;
+
+    String username = "b53b88e7c5d5d8";
+    String password = "d9014f52";
+    //String url = "jdbc:mysql://"+DbHwApplication.ip+":3306/";
+    String url = "dbc:mysql://eu-cdbr-west-01.cleardb.com:3306";
     String schemaName = "mydb2";
+
     String tableName = "persons";
     List<String > persons = new ArrayList();
 
