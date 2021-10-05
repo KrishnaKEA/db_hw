@@ -7,7 +7,7 @@ import java.util.List;
 public class MyDB {
     //String username = "root";
     //String password = DbHwApplication.pass;
-
+// change to use in aws
     String username = "b53b88e7c5d5d8";
     String password = "d9014f52";
     //String url = "jdbc:mysql://"+DbHwApplication.ip+":3306/";
