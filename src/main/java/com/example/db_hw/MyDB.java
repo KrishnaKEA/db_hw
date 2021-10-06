@@ -50,7 +50,7 @@ public class MyDB {
             System.out.println("Error " + e.getMessage());
         }
     }
-
+//hello cheking the change
     private void initializeDatabase(Connection conn) throws Exception{
         // 1. make sure there exists a schema, named mydb. If not, create one
         String sql = "CREATE DATABASE IF NOT EXISTS " + schemaName;
