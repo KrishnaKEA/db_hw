@@ -45,6 +45,7 @@ public class MyDB {
                     persons.add(firstName);
                 }
             }
+            // new
         }catch (Exception e){
             System.out.println("Error " + e.getMessage());
         }
