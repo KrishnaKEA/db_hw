@@ -10,7 +10,7 @@ public class DbHwApplication {
    public static String pass;
 
     public static void main(String[] args) {
-// Check chek
+// Check chek hello
         ip = args[0];
         pass = args[1];
 
